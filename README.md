@@ -1,2 +1,28 @@
-# OIBSIP__PYTHONPROGRAMMING__TASK3
-Python password generator that lets users choose length and character types (letters, numbers, symbols, or combinations). It validates input, creates a random password using `random.choice', displays it, and allows generating multiple passwords in a loop.
+Random Password Generator 
+A simple Python program to generate secure random passwords.
+Users can choose password length and character types to customize their passwords.
+
+Features
+Generate passwords of any length
+Choose character types:
+Letters only
+Numbers only
+Symbols only
+Letters + Numbers
+Letters + Numbers + Symbols
+Handles invalid inputs gracefully
+Easy to use via command-line interface (CLI)
+
+ How it Works
+The program uses Python’s random and string modules to generate passwords.
+
+Project Structure
+password-generator/
+password_generator.py
+README.md
+
+Technologies Used
+Python 3
+Modules:
+random (for random selection)
+string (for character sets)
